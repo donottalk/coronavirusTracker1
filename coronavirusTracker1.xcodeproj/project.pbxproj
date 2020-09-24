@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		080F713B24C4BFB900A1027F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F713A24C4BFB900A1027F /* MapView.swift */; };
+		0819DED824BF87DD00879BB7 /* TotalDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0819DED724BF87DD00879BB7 /* TotalDataView.swift */; };
 		0855F55124B9EAB60013C357 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0855F55024B9EAB60013C357 /* AppDelegate.swift */; };
 		0855F55324B9EAB60013C357 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0855F55224B9EAB60013C357 /* SceneDelegate.swift */; };
 		0855F55624B9EAB60013C357 /* coronavirusTracker1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0855F55424B9EAB60013C357 /* coronavirusTracker1.xcdatamodeld */; };
@@ -14,9 +16,23 @@
 		0855F55A24B9EAB80013C357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0855F55924B9EAB80013C357 /* Assets.xcassets */; };
 		0855F55D24B9EAB80013C357 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0855F55C24B9EAB80013C357 /* Preview Assets.xcassets */; };
 		0855F56024B9EAB80013C357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0855F55E24B9EAB80013C357 /* LaunchScreen.storyboard */; };
+		085E13D024BF5F36002CC83E /* TotalDataCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085E13CF24BF5F36002CC83E /* TotalDataCard.swift */; };
+		0861EDA424B9EF1C00BECCAE /* CovidFetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0861EDA324B9EF1C00BECCAE /* CovidFetchRequest.swift */; };
+		0861EDA624BA030A00BECCAE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0861EDA524BA030A00BECCAE /* Model.swift */; };
+		0861EDAA24BBA34400BECCAE /* RecentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0861EDA924BBA34400BECCAE /* RecentView.swift */; };
+		0866313424C35F1E00DD6A48 /* CountryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0866313324C35F1E00DD6A48 /* CountryDetailView.swift */; };
+		086D62C624BBAADB004279EC /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D62C524BBAADB004279EC /* ListHeaderView.swift */; };
+		086D62C824BBADBB004279EC /* CountryDataRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D62C724BBADBB004279EC /* CountryDataRowView.swift */; };
+		086D62CA24BE04EE004279EC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D62C924BE04EE004279EC /* Extension.swift */; };
+		087BC4E324C355D5004E5EC7 /* CountryDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087BC4E224C355D5004E5EC7 /* CountryDetailRow.swift */; };
+		08B391C424C0495600BB5A64 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B391C324C0495600BB5A64 /* SearchView.swift */; };
+		08E9EEAB24C4CA380032CEFA /* MapContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E9EEAA24C4CA380032CEFA /* MapContainerView.swift */; };
+		D6921F9481E6429ABAD120BD /* Pods_coronavirusTracker1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A8EE3C725C56804E747398 /* Pods_coronavirusTracker1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		080F713A24C4BFB900A1027F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		0819DED724BF87DD00879BB7 /* TotalDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalDataView.swift; sourceTree = "<group>"; };
 		0855F54D24B9EAB60013C357 /* coronavirusTracker1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coronavirusTracker1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0855F55024B9EAB60013C357 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0855F55224B9EAB60013C357 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +42,20 @@
 		0855F55C24B9EAB80013C357 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0855F55F24B9EAB80013C357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0855F56124B9EAB80013C357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		085E13CF24BF5F36002CC83E /* TotalDataCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalDataCard.swift; sourceTree = "<group>"; };
+		0861EDA324B9EF1C00BECCAE /* CovidFetchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidFetchRequest.swift; sourceTree = "<group>"; };
+		0861EDA524BA030A00BECCAE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0861EDA924BBA34400BECCAE /* RecentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentView.swift; sourceTree = "<group>"; };
+		0866313324C35F1E00DD6A48 /* CountryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailView.swift; sourceTree = "<group>"; };
+		086D62C524BBAADB004279EC /* ListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
+		086D62C724BBADBB004279EC /* CountryDataRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDataRowView.swift; sourceTree = "<group>"; };
+		086D62C924BE04EE004279EC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		087BC4E224C355D5004E5EC7 /* CountryDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailRow.swift; sourceTree = "<group>"; };
+		08B391C324C0495600BB5A64 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		08E9EEAA24C4CA380032CEFA /* MapContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapContainerView.swift; sourceTree = "<group>"; };
+		808F23F0D452C53DBC9D8F06 /* Pods-coronavirusTracker1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coronavirusTracker1.release.xcconfig"; path = "Target Support Files/Pods-coronavirusTracker1/Pods-coronavirusTracker1.release.xcconfig"; sourceTree = "<group>"; };
+		88BDD8C89D0029D1FE9AF3D5 /* Pods-coronavirusTracker1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coronavirusTracker1.debug.xcconfig"; path = "Target Support Files/Pods-coronavirusTracker1/Pods-coronavirusTracker1.debug.xcconfig"; sourceTree = "<group>"; };
+		F4A8EE3C725C56804E747398 /* Pods_coronavirusTracker1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coronavirusTracker1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6921F9481E6429ABAD120BD /* Pods_coronavirusTracker1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +75,8 @@
 			children = (
 				0855F54F24B9EAB60013C357 /* coronavirusTracker1 */,
 				0855F54E24B9EAB60013C357 /* Products */,
+				1E6839C99A71B67CFF38ACF1 /* Pods */,
+				89FE6718C76364D16DE13872 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +94,12 @@
 				0855F55024B9EAB60013C357 /* AppDelegate.swift */,
 				0855F55224B9EAB60013C357 /* SceneDelegate.swift */,
 				0855F55724B9EAB60013C357 /* ContentView.swift */,
+				0861EDA924BBA34400BECCAE /* RecentView.swift */,
+				0866313324C35F1E00DD6A48 /* CountryDetailView.swift */,
+				08E9EEAA24C4CA380032CEFA /* MapContainerView.swift */,
+				085E13CE24BF5EFF002CC83E /* Views */,
+				085E13CD24BF5EE0002CC83E /* Etensions */,
+				0861EDAB24BBA37200BECCAE /* Model */,
 				0855F55924B9EAB80013C357 /* Assets.xcassets */,
 				0855F55E24B9EAB80013C357 /* LaunchScreen.storyboard */,
 				0855F56124B9EAB80013C357 /* Info.plist */,
@@ -78,6 +117,54 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		085E13CD24BF5EE0002CC83E /* Etensions */ = {
+			isa = PBXGroup;
+			children = (
+				086D62C924BE04EE004279EC /* Extension.swift */,
+			);
+			path = Etensions;
+			sourceTree = "<group>";
+		};
+		085E13CE24BF5EFF002CC83E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				086D62C524BBAADB004279EC /* ListHeaderView.swift */,
+				08B391C324C0495600BB5A64 /* SearchView.swift */,
+				087BC4E224C355D5004E5EC7 /* CountryDetailRow.swift */,
+				0819DED724BF87DD00879BB7 /* TotalDataView.swift */,
+				080F713A24C4BFB900A1027F /* MapView.swift */,
+				085E13CF24BF5F36002CC83E /* TotalDataCard.swift */,
+				086D62C724BBADBB004279EC /* CountryDataRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0861EDAB24BBA37200BECCAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0861EDA324B9EF1C00BECCAE /* CovidFetchRequest.swift */,
+				0861EDA524BA030A00BECCAE /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E6839C99A71B67CFF38ACF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88BDD8C89D0029D1FE9AF3D5 /* Pods-coronavirusTracker1.debug.xcconfig */,
+				808F23F0D452C53DBC9D8F06 /* Pods-coronavirusTracker1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		89FE6718C76364D16DE13872 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4A8EE3C725C56804E747398 /* Pods_coronavirusTracker1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0855F56424B9EAB80013C357 /* Build configuration list for PBXNativeTarget "coronavirusTracker1" */;
 			buildPhases = (
+				11085D62D5820DECE6F19681 /* [CP] Check Pods Manifest.lock */,
 				0855F54924B9EAB60013C357 /* Sources */,
 				0855F54A24B9EAB60013C357 /* Frameworks */,
 				0855F54B24B9EAB60013C357 /* Resources */,
+				89772580070EE1158D285EC1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,15 +233,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11085D62D5820DECE6F19681 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coronavirusTracker1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89772580070EE1158D285EC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coronavirusTracker1/Pods-coronavirusTracker1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coronavirusTracker1/Pods-coronavirusTracker1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-coronavirusTracker1/Pods-coronavirusTracker1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0855F54924B9EAB60013C357 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				087BC4E324C355D5004E5EC7 /* CountryDetailRow.swift in Sources */,
+				080F713B24C4BFB900A1027F /* MapView.swift in Sources */,
+				0861EDA424B9EF1C00BECCAE /* CovidFetchRequest.swift in Sources */,
 				0855F55624B9EAB60013C357 /* coronavirusTracker1.xcdatamodeld in Sources */,
 				0855F55124B9EAB60013C357 /* AppDelegate.swift in Sources */,
+				0861EDA624BA030A00BECCAE /* Model.swift in Sources */,
 				0855F55824B9EAB60013C357 /* ContentView.swift in Sources */,
+				086D62CA24BE04EE004279EC /* Extension.swift in Sources */,
+				0861EDAA24BBA34400BECCAE /* RecentView.swift in Sources */,
 				0855F55324B9EAB60013C357 /* SceneDelegate.swift in Sources */,
+				0866313424C35F1E00DD6A48 /* CountryDetailView.swift in Sources */,
+				08E9EEAB24C4CA380032CEFA /* MapContainerView.swift in Sources */,
+				08B391C424C0495600BB5A64 /* SearchView.swift in Sources */,
+				086D62C624BBAADB004279EC /* ListHeaderView.swift in Sources */,
+				085E13D024BF5F36002CC83E /* TotalDataCard.swift in Sources */,
+				086D62C824BBADBB004279EC /* CountryDataRowView.swift in Sources */,
+				0819DED824BF87DD00879BB7 /* TotalDataView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +430,7 @@
 		};
 		0855F56524B9EAB80013C357 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BDD8C89D0029D1FE9AF3D5 /* Pods-coronavirusTracker1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,12 +445,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Anton.Dobrovinskiy.coronavirusTracker1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0855F56624B9EAB80013C357 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 808F23F0D452C53DBC9D8F06 /* Pods-coronavirusTracker1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -320,7 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Anton.Dobrovinskiy.coronavirusTracker1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
